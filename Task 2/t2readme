@@ -1,0 +1,48 @@
+📌 Title
+
+Short-Term Stock Price Prediction Using Machine Learning
+
+📖 Description
+
+This project uses historical stock data to predict the next day’s closing price using regression techniques.
+
+🎯 Objectives
+Fetch stock data from API
+Prepare time-series dataset
+Train regression model
+Compare predicted vs actual prices
+🛠️ Tools & Libraries
+Python
+pandas
+matplotlib
+scikit-learn
+yfinance
+📂 Dataset
+Stock data from Yahoo Finance
+Example: Apple (AAPL), Tesla (TSLA)
+▶️ Steps to Run
+
+Install dependencies:
+
+pip install yfinance
+
+Load stock data using:
+
+yf.download('AAPL')
+Create target column (next day price)
+Train model (Linear Regression)
+Plot results
+📊 Model Used
+Linear Regression
+📈 Output
+Graph comparing:
+Actual closing prices
+Predicted closing prices
+📉 Limitations
+Does not account for market volatility
+Simple model (not highly accurate)
+✅ Skills Learned
+Time-series handling
+Regression modeling
+API data fetching
+Model evaluation
